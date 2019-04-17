@@ -11,7 +11,7 @@ pipeline {
    stage('Test') {
     steps {
      echo 'Hello kamal how do you doing '
-     sh 'copy dist/trainSchedule.zip dist/trainSchedule.zip.1'
+     sh 'mv dist/trainSchedule.zip dist/trainSchedule.zip.1'
          }
    }
  }
